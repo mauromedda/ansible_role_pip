@@ -7,6 +7,7 @@
     state: present
   tags:
     - install
+    - pip
 
 - name: "PIP | Install python-pip"
   yum:
@@ -14,3 +15,4 @@
     state: present
   tags:
     - install
+    - pip
