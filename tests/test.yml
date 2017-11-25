@@ -4,4 +4,5 @@
   connection: local
 
   roles:
+    - mauromedda.ansible_role_epel
     - role_under_test
