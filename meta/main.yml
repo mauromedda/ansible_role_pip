@@ -13,4 +13,5 @@ galaxy_info:
     - 7
   galaxy_tags: [ "EL", "CentOS", "RedHat", "anbile_role_git", "git" ]
 
-dependencies: [ ]
+dependencies:
+  - { role: ansible_role_epel }
